@@ -14,6 +14,8 @@ function index() {
     console.log(user);
     return (
       <div>
+    <img src="https://lh3.googleusercontent.com/d/1U8PvAzjhZ9jDUPvtHk9BYTJ0qvVz0xF3" alt="Description of the image"/>
+
         Welcome {user.name}! <Link  href="/api/auth/logout">Logout</Link>
         <br></br>
         Your nickname is {user.nickname}.
